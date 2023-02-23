@@ -1,0 +1,28 @@
+.img {
+    width: 150px;
+    margin-right: 40px
+}.img:hover {
+        
+    animation-name: gift;
+    animation-duration: 1.5s; 
+    animation-iteration-count: 1;
+}
+@keyframes gift {
+
+from {
+
+
+}
+to {
+    rotate: -360deg;
+    }
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    color: rgb(99, 99, 99);
+}
+
+
+

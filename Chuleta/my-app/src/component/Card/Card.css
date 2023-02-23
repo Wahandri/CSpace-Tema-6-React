@@ -1,6 +1,6 @@
 .box {
     margin: 100px;
-    border: 1px solid rgb(132, 132, 132);
+    border: 1px solid rgb(148, 148, 148);
     width: 60%;
     height: 400px;
     display: flex;
@@ -9,7 +9,6 @@
     box-shadow: 4px 4px rgb(114, 114, 114);
 }.box:hover {
     box-shadow: none;
-    border-style: none;
     position: relative;
     top: 4px;
     left: 4px;

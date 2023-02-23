@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Card.css";
 
-export default function Card() {
+export default function Card(props) {
   return (
     <div>
         <div className='box'>
@@ -9,7 +9,7 @@ export default function Card() {
             286x180
           </div>
           <div className='body'>
-            <h4>Card Title</h4>
+            <h4>{props.title}</h4>
             <p>Somo quick example text to build on the card title and make up the bulk of the card's contend</p>
             <button className='button'>Go somewhere</button>
           </div>
@@ -18,3 +18,6 @@ export default function Card() {
   )
 }
 
+Card.defaultProps = {
+  title: "Sin titulo",
+}
